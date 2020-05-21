@@ -182,6 +182,7 @@
 
  /* footer */
 .footer{
+  margin-top: 280px;
   clear:left;
   color:rgb(190, 186, 186)
 }
@@ -206,7 +207,7 @@
  }
 
  .footer-small{
-  background: linear-gradient(145deg, #272727, #5c5c5b);
+  background: linear-gradient(145deg, #272727, #444444);
   color: #e4e4e4;
  }
  
