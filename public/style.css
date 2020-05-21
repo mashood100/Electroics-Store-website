@@ -1,0 +1,212 @@
+@font-face {
+    font-family: brand;
+    src: url(fonts/DancingScript-VariableFont_wght.ttf);
+  }
+  html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+  body{
+  background-color: rgb(243, 244, 245);
+  
+  }
+  hr{
+  height: 2px;
+  background-color: rgb(213, 214, 226);
+  
+  margin-bottom: 30px;
+  border: none;
+  }
+  
+  .brand_{
+    font-family: brand;
+    font-size: 35px;
+    
+  }
+  
+  .heading{
+    margin: auto;
+    margin-top: 34px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size:37px;
+    min-height: 50px;
+    max-height: 70;
+    min-width: 150px;
+    max-width: 300px;;
+  }
+  .container_{
+  
+    border-radius: 12px;
+    margin-bottom: 70px;
+    float: left;
+    width: 28%;
+    padding: 30px 10px;
+    text-align: center;
+    background-color: white;
+    
+    box-shadow: 1px 7px 27px rgb(180, 180, 182);
+    overflow: hidden;
+    min-height: 150px;
+    max-height: 30;
+    min-width: 250px;
+    max-width: 300px;
+    transition-duration: 0.4s
+  }
+  .container_:hover{
+    margin-top: 2px;
+    box-shadow: 1px 6px 29px rgb(233, 230, 230);
+
+  }
+
+  .tag-repair{
+    box-shadow:  2px 2px 8px #a8fa3d, 
+    -2px -2px 8px #acfb35;
+    margin: auto;
+    width:120px;
+    height: 16px;
+    background: linear-gradient(145deg, #a9f832, #73c303);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 10px;
+    min-height: 20px;
+    max-height: 75px;
+    min-width: 80px;
+    max-width: 300px;;
+  }
+  .tag-sell{
+    box-shadow:  2px 2px 8px #fdc789, 
+               -2px -2px 8px #ffb95d;
+    margin: auto;
+    width:120px;
+    height: 16px;
+    background: linear-gradient(145deg, #f7a841, #f17602);
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 10px;
+    min-height: 20px;
+    max-height: 75px;
+    min-width: 80px;
+    max-width: 300px;;
+  }
+  .tag-build{
+    box-shadow:  2px 2px 8px #9589fd, 
+               -2px -2px 8px #6d6afb;
+    margin: auto;
+    width:120px;
+    height: 16px;
+    background: linear-gradient(145deg, #6e6bff, #6715ff);
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 10px;
+    min-height: 20px;
+    max-height: 75px;
+    min-width: 80px;
+    max-width: 300px;;
+  }
+  .text{
+    margin: auto;
+    background-color: white;
+    color: gray;
+    margin-top: 20px;
+    padding: 20px,20px;
+    text-align: center;
+    font-size: 13pt;
+    line-height: 14pt;
+    min-height: 50px;
+    max-height: 70;
+    min-width: 150px;
+    max-width: 300px;;
+  
+  }
+   .button_ {
+    background:linear-gradient(to left, rgb(132, 0, 240) 20%, #776ada 100%);
+    border-radius:70px;
+    border:1px solid white;
+    
+    cursor:pointer;
+    color:white;
+  
+    font-size:12px;
+    padding:4px 70px;  
+    height: 30px;
+    transition-duration: 0.5s;
+    min-height: 30px;
+    max-height: 70px;
+    min-width: 10px;
+    max-width: 300px;
+    margin-top: 25px;
+  }
+  .button_:hover {
+    background:white;
+    border-radius:90px;
+    border:1px solid #0e0bee;
+    cursor:pointer;
+    color:#0e0bee;
+    font-size:12px;
+    padding:4px 70px;  
+    height: 30px;
+    max-height: 70;
+    min-width: 150px;
+    max-width: 300px;;
+    margin-top: 25;
+    box-shadow: 0px 3px 4px grey
+  }
+  .card{
+    transition-duration: 0.3s
+  }
+  .card:hover{
+    transform: scale(0.98, 0.98);
+    
+  }
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    
+    object-fit: contain;
+  }
+  
+
+ /* footer */
+.footer{
+  clear:left;
+  color:rgb(190, 186, 186)
+}
+.contect_{
+
+   list-style-type:none;
+}
+.contect_icon{
+  color: rgb(28, 196, 28);
+ font-weight: normal;
+}
+.line_footer1{
+  color: rgb(52, 216, 30);
+  
+}
+ .imf{
+
+  width: 35px; 
+  margin-left: -6px;
+  height: 30px; 
+ 
+ }
+
+ .footer-small{
+  background: linear-gradient(145deg, #272727, #5c5c5b);
+  color: #e4e4e4;
+ }
+ 

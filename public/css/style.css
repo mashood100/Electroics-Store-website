@@ -1,0 +1,20 @@
+img{ 
+
+    width: 50%;
+}
+h1{
+    font-family: Arial;
+    color: rgb(124, 67, 230);
+    font-size: 230%;
+    
+}
+fieldset{
+    
+    width: 65%;
+    background-color:rgb(124, 67, 230);
+}
+tr{
+    
+    font-family: Arial;
+    color: white;
+}
