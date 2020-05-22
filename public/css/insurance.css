@@ -1,0 +1,83 @@
+@font-face {
+    font-family: brand;
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+  }
+
+  .brand_{
+    font-family: brand;
+    font-size: 35px;
+    
+  }
+.rounded-lg {
+    border-radius: 1rem !important
+}
+
+.text-small {
+    font-size: 0.9rem !important
+}
+
+.pricing {
+    color: #fff
+}
+.card_{
+    transition-duration: 0.3s
+}
+.card_:hover{
+    transform: scale(0.98, 0.98);
+}
+.custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem
+}
+
+.text-uppercase {
+    letter-spacing: 0.2em
+}
+
+.btn-warning {
+    color: #fff
+}
+
+.btn-warning:hover {
+    color: #fff
+}
+
+body {
+    background: #2667df;
+    background: -webkit-linear-gradient(to right, #3539fc, #b2bdfa);
+    background: linear-gradient(to right, #5c6cfc, #6d70f5);
+    color: #514B64;
+    min-height: 150vh
+}
+
+.footer{
+    margin-top: 280px;
+    clear:left;
+    color:rgb(190, 186, 186)
+  }
+  .contect_{
+  
+     list-style-type:none;
+  }
+  .contect_icon{
+    color: rgb(28, 196, 28);
+   font-weight: normal;
+  }
+  .line_footer1{
+    color: rgb(52, 216, 30);
+    
+  }
+   .imf{
+  
+    width: 35px; 
+    margin-left: -6px;
+    height: 30px; 
+   
+   }
+  
+   .footer-small{
+    background: linear-gradient(145deg, #272727, #5c5c5b);
+    color: #e4e4e4;
+   }
+   
